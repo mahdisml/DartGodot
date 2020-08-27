@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/logo.png" alt="DartGodot logo"/>
+  <img src="/logo.png" width="400" height="400" alt="DartGodot logo"/>
 </p>
 
 # DartGodot
