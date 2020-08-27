@@ -9,4 +9,4 @@ This is not a dart game engine , but it will make godot a dart game engine !
 
 This is not only a language binding , its a new game programming style !
 
-The project is currently under heavy development and it's unusable for now
+**NOTE:** The project is currently under heavy development and it's unusable for now
