@@ -3,7 +3,7 @@
 </p>
 
 # DartGodot
-Dart + Godot + New Game Programming Style = DartGodot
+Dart + Godot + New Game Programming Style
 
 This is not a dart game engine , but it will make godot a dart game engine !
 
