@@ -11,4 +11,4 @@ This is not only a language binding , its a new game programming style !
 
 **NOTE :** The project is currently under heavy development and it's unusable for now
 
-support me by giving Star :)
+Support me by giving Star :)
