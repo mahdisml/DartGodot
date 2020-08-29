@@ -2,15 +2,28 @@
   <img src="/logo.png" width="350" height="350" alt="DartGodot logo"/>
 </p>
 
-# DartGodot
+# DartGodot [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mahdisml/DartGodot/blob/master/LICENSE)
 
-Its support all Godot Mono Platforms : Android , IOS , Web , Windows , ...
+DartGodot is a Dart language Game Framework for the Godot game engine.
+
+* **MultiPlatform**: Its support all Godot Mono Platforms : Android , IOS , Web , Windows , ...
+* **Simple**: Easy for newbies to pick up, but infinitely flexible for power users
+* **EasySetup**: Dart for godot without pain and hard configs (unlike other godot language bindings)
+* **Productive**: Fast Dart2Godot Compiler , Changes should compile quickly ... waiting isn't fun
+* **Fast**: App logic should run quickly
+* **Community**: Supports all Dart libraries (for js)
+* **Capable**: Godot will Offer a complete 2D and 3D feature set (unlike other dart game engines)
+
+
+# WARNING
+
+DartGodot is still in the very early stages of development. APIs can and will change (now is the time to make suggestions!). Important features are missing.There is no Documentation for now. Please don't build any serious projects in DartGodot unless you are prepared to be broken by api changes constantly.
+
+# Development Status
 
 Im currently working on a Dart2Godot crossplatform compiler to use dart in godot without pain and hard configs
 
-next step is implementing api , its easy but its too time consuming
-
-**NOTE :** The project is currently under heavy development and it's unusable for now
+Next step is implementing api , its easy but its too time consuming
 
 Support me by giving Star :)
 
@@ -19,6 +32,10 @@ Support me by giving Star :)
 talk to me : mahdisml98@gmail.com
 
 # Supporters
+
+Ehasn Mousavi (10 $ tether)
+
+Pooya Sharifi (0.0014 BTC)
 
 # Buy Me a Coffee
 
