@@ -1,7 +1,7 @@
 import 'package:dart_godot/dart_godot.dart';
 
-class Homepage extends GodotScript {
-
+ class Area extends Node {
+   
   @override
   void ready() {
     super.ready();
@@ -11,10 +11,10 @@ class Homepage extends GodotScript {
   @override
   void process(double delta) {
     super.process(delta);
-    print('the dart is on :)');
+    print('the dart is on :) ${delta}');
   }
-
 }
+
 void main() {
-  var homePage = Homepage();
+  var area = Area();
 }
