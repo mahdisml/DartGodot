@@ -3,19 +3,14 @@
 </p>
 
 # DartGodot
-Dart + Godot + New Game Programming Style
 
-It support all Godot Mono Platforms : Android , IOS , Web , Windows , ...
-
-This is not a dart game engine , but it will make godot a dart game engine !
-
-This is not only a language binding , its a new game programming style !
-
-**NOTE :** The project is currently under heavy development and it's unusable for now
+Its support all Godot Mono Platforms : Android , IOS , Web , Windows , ...
 
 Im currently working on a Dart2Godot crossplatform compiler to use dart in godot without pain and hard configs
 
 next step is implementing api , its easy but its too time consuming
+
+**NOTE :** The project is currently under heavy development and it's unusable for now
 
 Support me by giving Star :)
 
