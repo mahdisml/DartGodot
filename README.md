@@ -33,7 +33,7 @@ talk to me : mahdisml98@gmail.com
 
 # Supporters
 
-Ehasn Mousavi (10 $ tether)
+Ehasn Mousavi (10$ tether)
 
 Pooya Sharifi (0.0014 BTC)
 
