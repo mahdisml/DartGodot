@@ -1468,11 +1468,11 @@ h:function(a){return String(a)}}
 S.an.prototype={}
 S.G.prototype={
 O:function(){var t=this
-self.enterTree=P.ac(t.gW())
-self.ready=P.ac(t.ga4())
-self.process=P.ac(t.ga3())
-self.physicsProcess=P.ac(t.ga1())
-self.exitTree=P.ac(t.gY())},
+enterTree=P.ac(t.gW())
+ready=P.ac(t.ga4())
+process=P.ac(t.ga3())
+physicsProcess=P.ac(t.ga1())
+exitTree=P.ac(t.gY())},
 X:function(){},
 C:function(){},
 B:function(a){},
@@ -1546,7 +1546,7 @@ C.k=function() {
     }
   }
   function getUnknownTagGenericBrowser(object, tag) {
-    if (self.HTMLElement && object instanceof HTMLElement) return "HTMLElement";
+    if (HTMLElement && object instanceof HTMLElement) return "HTMLElement";
     return getUnknownTag(object, tag);
   }
   function prototypeForTag(tag) {
