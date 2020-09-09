@@ -44,6 +44,7 @@ tell me if you paid (to save your name into supporters) : mahdisml98@gmail.com
 bitcoin : 1Msoj1WSgfikjGfQu4UsgwkjsYbN692C3
 
 bitcoincash:qzkvdnx26tf28lcunmqhz0cykxazv7pt5gyszjrj63
+1GkZNrpKEuMvDKyMt1FEQ7Chb6aGCupAWx
 
 litecoin : LTPTiAzvQizkpM6ptX6pXwjwkFH84sfVpC
 
