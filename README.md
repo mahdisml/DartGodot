@@ -20,12 +20,30 @@ DartGodot is a Dart language Game Framework for the Godot game engine.
 DartGodot is still in the very early stages of development. APIs can and will change (now is the time to make suggestions!). Important features are missing.There is no Documentation for now. Please don't build any serious projects in DartGodot unless you are prepared to be broken by api changes constantly.
 
 # Development Status
-
+<del>
 Im currently working on a Dart2Godot crossplatform compiler to use dart in godot without pain and hard configs
+</del>
 
-Next step is implementing api , its easy but its too time consuming
+compiler is done
+
+Im currently working on implementing api , its easy but its too time consuming
 
 Support me by giving Star :)
+
+# Getting Started
+1. you must use Mono version (C# support) of Godot
+2. add below package to your .csproj
+
+        <PackageReference Include="Jint">
+            <Version>3.0.0-beta-1828</Version>
+        </PackageReference>
+3. clone or download this project (DartGodot)
+4. see scripts folder in dartgodot project
+5. edit or add scripts inside scripts folder
+6. run compiler.dart (with command line)
+7. copy compiled folder to your godot project files (you can add DartGodot folder to your godot project files for easier use and removing this step)
+8. it is done :) you can use C# files in Godot
+        
 
 # Be a Project Sponsor
 

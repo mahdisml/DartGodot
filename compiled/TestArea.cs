@@ -7,7 +7,7 @@ public class Node : Godot.Node
 	public override void _EnterTree()
 	{
 		base._EnterTree();
-		_dartConnector = new DartConnector("DARTGODOTFILEPATHJS");
+		_dartConnector = new DartConnector("data\\TestArea.d2g");
 		_dartConnector.EnterTree();
 	}
 	public override void _Ready()
