@@ -26,6 +26,7 @@ Im currently working on a Dart2Godot crossplatform compiler to use dart in godot
 
 compiler is done
 
+(we must wait for godot 4 (beta) !)
 Im currently working on implementing api , its easy but its too time consuming
 
 Support me by giving Star :)
