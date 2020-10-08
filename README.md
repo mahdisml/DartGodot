@@ -32,18 +32,24 @@ Im currently working on implementing api , its easy but its too time consuming
 Support me by giving Star :)
 
 # Getting Started
-1. you must use Mono version (C# support) of Godot
-2. add below package to your .csproj
+You must use Mono version (C# support) of Godot 
 
-        <PackageReference Include="Jint">
-            <Version>3.0.0-beta-1828</Version>
-        </PackageReference>
-3. clone or download this project (DartGodot)
-4. see scripts folder in dartgodot project
-5. edit or add scripts inside scripts folder
-6. run compiler.dart (with command line)
-7. copy compiled folder to your godot project files (you can add DartGodot folder to your godot project files for easier use and removing this step)
-8. it is done :) you can use C# files in Godot
+Godot Version = 3.2.3 +
+Dart Version = 2.9.2 +
+
+<br/>
+
+1. Create a new C# script in godot editor and save it (for building .csproj file)
+2. Add this inside < Project > tag in your .csproj file
+
+        <ItemGroup>
+          <PackageReference Include="Jint" Version="3.0.0-beta-1828"/>
+        </ItemGroup>
+3. Clone or download this project (DartGodot)
+4. Copy DartGodot folder to your godot project folder
+5. Edit or add scripts inside scripts folder
+6. Run compiler.dart (with command line)
+7. It is done :) NOW you can use C# files inside compiled folder
         
 
 # Be a Project Sponsor

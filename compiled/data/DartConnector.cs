@@ -6,10 +6,10 @@ namespace Godot
     public class DartConnector
     {
         private readonly Jint.Engine engine;
-        /* you must add below package to your .csproj
-        <PackageReference Include="Jint">
-            <Version>3.0.0-beta-1828</Version>
-        </PackageReference>
+        /* you must add this inside < Project > tag in your .csproj file
+        <ItemGroup>
+            <PackageReference Include="Jint" Version="3.0.0-beta-1828"/>
+        </ItemGroup>
         */
         public DartConnector(string sourcePath)
         {

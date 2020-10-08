@@ -10,9 +10,13 @@ Future<void> main () async {
   var scripts = scriptsFolder.listSync();
   scripts.forEach((f) async {
     var input = f.path;
-    var destination = 'compiled\\data\\${f.path.split('\\')[1].split('.')[0]}.d2g';
-    await run('dart2js',['-O4','-o',destination,input], verbose: true);
+    var className = f.path.split('\\')[1].split('.')[0];
 
+    var destination = 'compiled\\data\\${className}.d2g';
+    await Directory('compiled\\data').create(recursive: true);
+
+    await run('dart2js',['-O4','-o',destination,input], verbose: true);
+    
     var data = await File(destination).readAsString();
     await File(destination).delete();
     await File(destination+'.deps').delete();
@@ -66,21 +70,24 @@ Future<void> main () async {
     String pathFixer(String path){
       return path.replaceAll(r'\', r'\\');
     }
+
     data = data.replaceAll('self.','');
     final file = await File(destination);
     await file.writeAsString(data);
 
-    var csDestination = 'compiled\\${f.path.split('\\')[1].split('.')[0]}.cs';
+    
+    var csDestination = 'compiled\\${className}.cs';
     var ourFile = await File(f.path).readAsString();
   
     if (have(ourFile, 'extends Node')){
-      var ourCsData = await File('cs\\Node.cs').readAsString();
-      ourCsData = ourCsData.replaceAll('DARTGODOTFILEPATHJS', pathFixer(destination.replaceAll(r'compiled\', '')));
+      var ourCsData = await File('cs\\Node.cs.tmp').readAsString();
+      ourCsData = ourCsData.replaceAll('DARTGODOT_FILEPATHJS', pathFixer(destination.replaceAll(r'compiled\', r'DartGodot\compiled\')));
+      ourCsData = ourCsData.replaceAll('DARTGODOT_CLASSNAME',className);
       final fileCs = await File(csDestination);
       await fileCs.writeAsString(ourCsData);
     }
     
-    File('cs\\DartConnector.cs').copySync('compiled\\data\\DartConnector.cs');
+    File('cs\\DartConnector.cs.tmp').copySync('compiled\\data\\DartConnector.cs');
 
   });
 

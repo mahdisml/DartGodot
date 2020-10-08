@@ -1,13 +1,13 @@
 using Godot;
 
-public class TestArea : Godot.Node
+public class DARTGODOT_CLASSNAME : Godot.Node
 {
 	private DartConnector _dartConnector;
 	
 	public override void _EnterTree()
 	{
 		base._EnterTree();
-		_dartConnector = new DartConnector("DartGodot\\compiled\\data\\TestArea.d2g");
+		_dartConnector = new DartConnector("DARTGODOT_FILEPATHJS");
 		_dartConnector.EnterTree();
 	}
 	public override void _Ready()

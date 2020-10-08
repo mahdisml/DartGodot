@@ -1,13 +1,13 @@
 using Godot;
 
-public class Node : Godot.Node
+public class Fib : Godot.Node
 {
 	private DartConnector _dartConnector;
 	
 	public override void _EnterTree()
 	{
 		base._EnterTree();
-		_dartConnector = new DartConnector("DARTGODOTFILEPATHJS");
+		_dartConnector = new DartConnector("DartGodot\\compiled\\data\\Fib.d2g");
 		_dartConnector.EnterTree();
 	}
 	public override void _Ready()
