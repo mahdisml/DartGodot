@@ -31,6 +31,8 @@ compiler is done
 WE ARE WAITING :) i saw godot 4 , It is still broken ،
 Im currently working on implementing api , its easy but its too time consuming
 
+im working on it in dartgodot godot4 branch
+
 Support me by giving Star :)
 
 # Getting Started
