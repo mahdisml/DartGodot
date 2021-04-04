@@ -4,7 +4,7 @@
 
 # DartGodot [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mahdisml/DartGodot/blob/master/LICENSE)
 
-DartGodot is a Dart language Game Framework for the Godot game engine.
+Dart Godot is a Dart language Game Framework for the Godot game engine.
 
 * **MultiPlatform**: Its support all Godot Mono Platforms : Android , IOS , Web , Windows , ...
 * **Simple**: Easy for newbies to pick up, but infinitely flexible for power users
